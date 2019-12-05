@@ -33,7 +33,15 @@ nav {
 .nav-link:hover {
     color: #67BEFF;
 }
-
+.containermain {
+    display: flex;
+    flex-flow: column;
+}
+aside {
+    background-color: #67BEFF;
+    width: 50px;
+    
+}
 main {
     
     width: 80%;

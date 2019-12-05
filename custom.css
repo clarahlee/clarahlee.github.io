@@ -7,35 +7,55 @@ body {
     box-sizing: border-box;
 }
 
+
 nav {
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color: #ffffff;
     
-}
-.navbar {
-    border-bottom: 4px solid;
-    -moz-border-image: -moz-linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
-    -webkit-border-image: -webkit-linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
-    border-image: linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
-    border-image-slice: 1;
-    }
-
-.nav-link {
-    color: #000000;
-    padding: 3px;
-    margin: 2px;
-
-}
-.nav-link:hover {
-    color: #67BEFF;
+    
 }
 
-main {
+
+.containergrid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: [startA] 1fr [startM] 3fr [endM] 1fr[endA];
+    grid-template-rows: [starttop] 1fr [endbottom];
+    justify-content: space-between;
     
-    width: 80%;
-    margin: 50px;
+}
+.left{
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, rgba(103,190,255,1) 0%, rgba(255,0,0,0) 100%);    
+    grid-column-start: startA;
+    grid-column-end: startM;
+    grid-row-start: starttop;
+    grid-row-end: endbottom;
+    
+}
+.right{
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, rgba(103,190,255,1) 0%, rgba(255,0,0,0) 100%);    
+    grid-column-start: endM;
+    grid-column-end: endA;
+    grid-row-start: starttop;
+    grid-row-end: endbottom;
+    
+}
+
+article {
+    background-color:#ffffff;
+    grid-column-start: startM;
+    grid-column-end: endM;
+    grid-row-start: starttop;
+    grid-row-end: endbottom;
+    margin-bottom: 200px;
+    padding: 20px;
     
     
+}
+article h1 {
+    margin-top: 20px;
 }
 img {
     margin: 10px;
@@ -57,12 +77,7 @@ h2 {
     margin-bottom: 30px;
     
 }
-footer {
-    background: rgb(103,190,255);
-background: linear-gradient(133deg, rgba(103,190,255,1) 0%, rgba(255,255,172,1) 100%);
-    padding: 20px;
-    margin: 10px;
-}
+
 
 p {
     margin: 5px;
@@ -83,14 +98,17 @@ button {
     text-shadow: 1px 1px 8px #d1d1d1;
    
 }
-
 .footerhead
 {   font-size: 1em;
     color: #ffffff;
     font-family: 'overpass', sans-serif;
 }
-
-footer p {
-    padding: 10px;
+footer {
+    background: rgb(103,190,255);
+background: linear-gradient(133deg, rgba(103,190,255,1) 0%, rgba(255,255,172,1) 100%);
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 50px;
 }
+
 

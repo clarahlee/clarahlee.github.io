@@ -12,15 +12,24 @@ nav {
     background-color: #ffffff;
     
 }
-.nav-item {
+.navbar {
+    border-bottom: 4px solid;
+    -moz-border-image: -moz-linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
+    -webkit-border-image: -webkit-linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
+    border-image: linear-gradient(to left, #67BEFF 0%,#FFFFAC 40%,  #67BEFF 100%);
+    border-image-slice: 1;
+    }
+
+.nav-link {
     color: #000000;
+    padding: 3px;
+    margin: 2px;
 
 }
-.site-title {
-    font-size: 3em;
-    font-family: 'Calistoga', cursive;
-    padding: 20px;
+.nav-link:hover {
+    color: #67BEFF;
 }
+
 main {
     
     width: 80%;

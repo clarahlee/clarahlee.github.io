@@ -89,6 +89,17 @@ p {
     margin: 5px;
     margin-bottom: 20px;
 }
+.ulbold
+{ font-family: 'overpass',sans-serif;
+    font-size: 1em;
+   font-weight: bold;
+   margin-top: 28px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+
 .questions {
     margin-left: 10px;
     line-height: 60px;

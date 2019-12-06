@@ -87,7 +87,6 @@ p {
 }
 button {
     background: rgb(103,190,255);
-    color: #ffffff;
     font-family: 'Overpass', sans-serif;
     font-size: 1.5em;
     border-radius: 5px;
@@ -99,6 +98,14 @@ button {
 button:hover {
     background: linear-gradient(133deg, rgba(103,190,255,1) 0%, rgba(255,255,172,0.5) 180%);
 
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 .footerhead
 {   font-size: 1em;

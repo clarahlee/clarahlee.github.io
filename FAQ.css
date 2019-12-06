@@ -78,10 +78,14 @@ h2 {
     
 }
 
-h3
-{ font-size: 1em;
+.ulbold
+{ font-family: 'overpass',sans-serif;
+    font-size: 1em;
    font-weight: bold;
    margin-top: 28px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
 
 }
 

@@ -20,7 +20,6 @@ nav {
     grid-template-columns: [startA] 1fr [startM] 3fr [endM] 1fr[endA];
     grid-template-rows: [starttop] 1fr [endbottom];
     justify-content: space-between;
-    
 }
 .left{
     background-color: #ffffff;

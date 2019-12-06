@@ -73,41 +73,23 @@ h2 {
     font-family: 'overpass',sans-serif;
     font-size: 1.5em;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
     
 }
-h5 {
-    font-family: 'overpass',sans-serif;
-    font-size: 1.3em;
-    margin-left: 10px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+h3
+{ font-size: 1em;
+   font-weight: bold;
+   margin-top: 28px;
+
 }
 
 p {
     margin: 5px;
     margin-bottom: 20px;
 }
-.questions {
-    margin-left: 10px;
-    line-height: 60px;
-}
-button {
-    background: rgb(103,190,255);
-    color: #ffffff;
-    font-family: 'Overpass', sans-serif;
-    font-size: 1.5em;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 10px;
-    text-shadow: 1px 1px 8px #d1d1d1;
-   
-}
-.balloongirl {
-    width: 50vw;
-    margin: 3px;
-}
+
 .footerhead
 {   font-size: 1em;
     color: #ffffff;
